@@ -42,7 +42,7 @@ const resolvers = require("./resolvers.js");
     await server.start();
     server.applyMiddleware({ app });
 
-    mongoose.connect('mongodb+srv://user:user123@cluster001.n4vq0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+    mongoose.connect('.............................................................MongoDB_URL.........................................................................');
     console.log('Mongoose connected ...');
 
     const PORT = 4000;
